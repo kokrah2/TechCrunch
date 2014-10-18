@@ -5,6 +5,6 @@ package domain.enterpriseStoreClient;
  */
 public interface storeMemberImpl {
 
-    public void findNextAvailableStaffMember();
+    public String findNextAvailableStaffMember();
 
 }
