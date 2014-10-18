@@ -1,4 +1,4 @@
-package domain.enterpriseStoreClient;
+package domain.storeclient;
 
 /**
  * Created by Nivek on 18/10/2014.

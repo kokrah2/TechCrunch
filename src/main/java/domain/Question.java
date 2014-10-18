@@ -12,7 +12,6 @@ public class Question {
     }
 
     public String submit() {
-        findNextAvailableMember();
 
               //  questionId
         return null;

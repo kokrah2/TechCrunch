@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 
 @Controller
-@RequestMapping("/hello-world")
+@RequestMapping("/question/")
 public class publicRestPointEntry {
     public static final String  publicRestApi = "/something";
 
@@ -23,7 +23,7 @@ public class publicRestPointEntry {
         Question question = new Question(questionId);
         question.submit();
 
-        return new  Greeting(counter.incrementAndGet(), String.format(template, name));
+        return null;
     }
 
 }
