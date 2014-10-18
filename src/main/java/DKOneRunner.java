@@ -1,4 +1,4 @@
-import domain.storeclient.MatrixHttpClient;
+import domain.MatrixHttpClient;
 
 import java.io.IOException;
 
@@ -8,6 +8,5 @@ import java.io.IOException;
 public class DKOneRunner {
     public static void main (String[] args) throws IOException {
         MatrixHttpClient.connectToMatrix();
-        System.out.print("hello world");
     }
 }
